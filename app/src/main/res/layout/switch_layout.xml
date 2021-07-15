@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <belka.us.androidtoggleswitch.widgets.ToggleSwitch
+        android:id="@+id/mode_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:textToggleLeft="LIGHT"
+        app:textToggleRight="DARK"
+        android:layout_gravity="center"
+        app:toggleWidth="100dp"/>
+</LinearLayout>

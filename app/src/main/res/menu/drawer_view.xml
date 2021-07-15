@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_fi_rr_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_1"
+            android:icon="@null"
+            android:title="@null" />
+        <item
+            android:id="@+id/nav_2"
+            android:icon="@null"
+            android:title="@null" />
+        <item
+            android:id="@+id/nav_3"
+            android:icon="@null"
+            android:title="@null" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_4"
+                android:icon="@null"
+                android:title="@string/change_display_mode" />
+            <item
+                android:id="@+id/nav_switch"
+                android:title=""
+                app:actionLayout="@layout/switch_layout"
+                app:showAsAction="always"/>
+        </menu>
+    </item>
+</menu>

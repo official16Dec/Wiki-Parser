@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Wiki Parser</string>
+    <string name="menu_home">Home</string>
+    <string name="articles">Articles</string>
+    <string name="feature">Featured</string>
+    <string name="categories">Categories</string>
+    <string name="change_display_mode">Change Display Mode</string>
+</resources>
